@@ -13,6 +13,8 @@ The project is designed to be robust and handles various contingencies related t
 * logger.py: Contains the log_error function which logs error messages to error_log.txt.
 
 * main_script.py: The primary script that orchestrates the web scraping, data processing, and EMA calculation. It also includes error handling.
+  
+* example_results: The example result folder contains my version of the results I got from running my script. 
 
 # How to Run:
 Ensure you have Python 3.9 and the required libraries installed. You can install the necessary libraries using:
@@ -39,7 +41,13 @@ Run the Docker container:
 
 # Contextual Relevance of Exponential Moving Average (EMA):
 
+This is just a basic implementation since a sophisticated one isnt required for this assignment. 
+
 In the run-up to an election, various events can influence voter sentiment — from debates and policy announcements to unexpected news or controversies. Using EMA ensures that our poll tracker remains sensitive to these changes, providing stakeholders with a timely and relevant understanding of the evolving electoral landscape.
+
+# Visualizing my result:
+
+![7-Day Exponential Moving Average of Election Polls (Interpolated)](viz.png)
 
 
 
