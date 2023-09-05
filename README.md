@@ -37,7 +37,7 @@ Run the Docker container:
 
 `docker run poll_tracker`
 
-## Contextual Relevance of Exponential Moving Average (EMA):
+# Contextual Relevance of Exponential Moving Average (EMA):
 
 In the run-up to an election, various events can influence voter sentiment — from debates and policy announcements to unexpected news or controversies. Using EMA ensures that our poll tracker remains sensitive to these changes, providing stakeholders with a timely and relevant understanding of the evolving electoral landscape.
 
