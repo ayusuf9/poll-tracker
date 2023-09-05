@@ -26,3 +26,15 @@ python main_script.py
 After running the script, you should see two output files in the same directory: polls.csv (scraped data) and trends.csv (7-day EMA data).
 
 
+## Docker Instructions:
+If you prefer to run the project in a Docker container:
+
+Build the Docker image using:
+
+docker build -t poll_tracker .
+
+Run the Docker container:
+
+docker run poll_tracker
+
+
